@@ -16,6 +16,9 @@ app.use(logger.logRequest.bind(logger));
 // Import routes
 const exampleRoutes = require('./routes/example');
 
+// Use example routes
+app.use('/api', exampleRoutes);
+
 // TODO: Add authentication middleware
 // TODO: Implement rate limiting
 // TODO: Add proper logging system (winston/morgan)
