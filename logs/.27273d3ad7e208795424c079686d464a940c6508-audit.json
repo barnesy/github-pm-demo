@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 30
+    },
+    "auditLog": "/Users/barnesy/Projects/github-pm-demo/logs/.27273d3ad7e208795424c079686d464a940c6508-audit.json",
+    "files": [
+        {
+            "date": 1753760947460,
+            "name": "/Users/barnesy/Projects/github-pm-demo/logs/security-2025-07-28.log",
+            "hash": "78fb98ee8347bfa56e16c2c497ff176e3fcc2c98a81a40adfeecbd114e3f4e29"
+        },
+        {
+            "date": 1753792773605,
+            "name": "/Users/barnesy/Projects/github-pm-demo/logs/security-2025-07-29.log",
+            "hash": "587ed46a6fec35889753433ed0f7f07e277dd69296c0de63a4eeb3083e3a9738"
+        }
+    ],
+    "hashType": "sha256"
+}
