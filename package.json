@@ -8,11 +8,17 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js"
   },
-  "keywords": ["demo", "github", "project-management"],
+  "keywords": [
+    "demo",
+    "github",
+    "project-management"
+  ],
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.18.2"
+    "dotenv": "^17.2.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.16.5"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
